@@ -1,7 +1,7 @@
 let mediana = 0;
 
 function esPar(numero){
-     return numero  = (numero % 2 === 0) ? true : false; 
+     return (numero % 2 === 0);
 }
 
 function calcularMediana(lista){
